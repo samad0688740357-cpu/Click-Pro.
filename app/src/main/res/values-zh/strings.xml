@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动点击器</string>
+    <string name="app_subtitle">选择一个模式开始使用</string>
+    <string name="choose_mode">选择模式</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">自动点击器</string>
+    <string name="accessibility_service_description">启用自动点击器以模拟屏幕点击，并在其他应用上方显示悬浮控制按钮。</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_required_title">需要无障碍权限</string>
+    <string name="accessibility_required_msg">请在无障碍设置中启用自动点击器，以允许模拟点击和显示悬浮按钮。</string>
+    <string name="open_settings">打开设置</string>
+    <string name="settings_short">设置</string>
+    <string name="accessibility_enabled_title">无障碍已启用</string>
+    <string name="accessibility_enabled_msg">自动点击器现在可以模拟点击了。点击下方可打开无障碍设置并将其关闭。</string>
+    <string name="disable_accessibility">在设置中禁用</string>
+
+    <!-- Main screen cards -->
+    <string name="single_target_mode">单点模式</string>
+    <string name="single_target_desc">一个可拖动到屏幕任意位置的点击点。</string>
+    <string name="multi_target_mode">多点模式</string>
+    <string name="multi_target_desc">多个按顺序执行的点击点，支持滑动操作。</string>
+    <string name="badge_simple">简单</string>
+    <string name="badge_pro">专业版</string>
+    <string name="badge_single_point">1个点</string>
+    <string name="badge_multi_point">多个点</string>
+    <string name="add_quick_start_shortcut">添加快速启动快捷方式</string>
+    <string name="add_shortcut">+ 快捷方式</string>
+    <string name="single_quick_start_shortcut">单点快速启动</string>
+    <string name="multi_quick_start_shortcut">多点快速启动</string>
+    <string name="shortcut_added">快捷方式请求已发送至启动器</string>
+    <string name="shortcut_not_supported">您的启动器不支持固定快捷方式</string>
+
+    <!-- History page -->
+    <string name="history_title">历史记录</string>
+    <string name="history_subtitle">已保存的配置和流程</string>
+    <string name="nav_clicker">点击器</string>
+    <string name="saved_flow">已保存的流程</string>
+    <string name="import_config">导入</string>
+    <string name="export">导出</string>
+    <string name="use">使用</string>
+    <string name="reuse">重复使用</string>
+    <string name="empty_config_title">暂无配置</string>
+    <string name="empty_config_desc">启用一个模式并保存设置后，它会显示在这里。</string>
+    <string name="premium_lifetime">终身高级版</string>
+    <string name="premium_active">高级版已激活</string>
+    <string name="premium_short">高级版</string>
+    <string name="active_short">高级版</string>
+    <string name="search_history">搜索历史记录</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="folder">文件夹</string>
+    <string name="manage_folders">管理文件夹</string>
+    <string name="manage_folders_desc">拖动排序、点击重命名或新建文件夹。</string>
+    <string name="add_folder">添加文件夹</string>
+    <string name="drag_folder">拖动文件夹</string>
+    <string name="no_folders_yet">暂无文件夹</string>
+    <string name="folder_name">文件夹名称</string>
+    <string name="folder_dialog_desc">创建文件夹以整理您的高级版历史配置。</string>
+    <string name="folder_name_chip">文件夹：%1$s</string>
+    <string name="all_folders">全部</string>
+    <string name="uncategorized">未分类</string>
+    <string name="pin_folder">固定文件夹</string>
+    <string name="unpin_folder">取消固定文件夹</string>
+    <string name="rename_folder">重命名文件夹</string>
+    <string name="delete_folder">删除文件夹</string>
+    <string name="delete_folder_message">删除"%1$s"？文件夹内的配置也会一并删除。</string>
+    <string name="create_folder">创建文件夹</string>
+    <string name="move_to_folder">移动到文件夹</string>
+    <string name="move_folder_short">移动文件夹</string>
+    <string name="clone">复制</string>
+    <string name="delete">删除</string>
+    <string name="delete_config">删除配置</string>
+    <string name="delete_config_message">删除"%1$s"？此操作无法撤销。</string>
+    <string name="more_actions">更多</string>
+    <string name="pin">固定</string>
+    <string name="unpin">取消固定</string>
+    <string name="drive_import">从云端导入</string>
+    <string name="drive_export">导出到云端</string>
+    <string name="sort">排序</string>
+    <string name="sort_history">历史记录排序</string>
+    <string name="sort_date_desc">最新优先</string>
+    <string name="sort_date_asc">最旧优先</string>
+    <string name="sort_name_asc">名称 A–Z</string>
+    <string name="sort_name_desc">名称 Z–A</string>
+    <string name="premium_required">需要高级版</string>
+
+    <!-- Actions -->
+    <string name="enable">启用</string>
+    <string name="settings">设置</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="start_stop">开始 / 停止</string>
+    <string name="close">关闭悬浮窗</string>
+
+    <!-- Overlay Actions -->
+    <string name="add_target">添加目标</string>
+    <string name="add_swipe">添加滑动</string>
+    <string name="add_long_press">添加长按</string>
+    <string name="choose_action">选择操作</string>
+    <string name="remove_target">移除目标</string>
+    <string name="hide_show">隐藏 / 显示</string>
+    <string name="show_more">显示更多</string>
+    <string name="show_less">显示更少</string>
+    <string name="edit_target">编辑目标</string>
+    <string name="set_as_click">设为点击</string>
+    <string name="set_as_swipe">设为滑动</string>
+    <string name="set_as_long_press">设为长按</string>
+    <string name="action_click">点击</string>
+    <string name="action_swipe">滑动</string>
+    <string name="action_long_press">长按</string>
+    <string name="action_click_desc">在目标点快速点击。</string>
+    <string name="action_swipe_desc">从起点拖动到终点。</string>
+    <string name="action_long_press_desc">在目标点按住 %1$d 毫秒。</string>
+    <string name="target_summary">目标操作：%1$s</string>
+    <string name="preview_current_action">当前操作：点击</string>
+    <string name="preview_long_press_desc">在目标点按住 1000 毫秒。</string>
+    <string name="action_type">操作类型</string>
+    <string name="apply_action">应用</string>
+    <string name="save_action">保存</string>
+    <string name="chip_single">单点</string>
+    <string name="chip_multi">多点</string>
+    <string name="infinite_loop">∞ 循环</string>
+    <string name="loop_count">%1$d 次循环</string>
+    <string name="swipe_start_marker">起</string>
+    <string name="long_press_marker">按</string>
+    <string name="swipe_end_marker">终</string>
+    <string name="indexed_swipe_start_marker">%1$d起</string>
+    <string name="indexed_long_press_marker">%1$d按</string>
+    <string name="indexed_swipe_end_marker">%1$d终</string>
+
+    <!-- Dialogs -->
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
+    <string name="discard_changes">放弃</string>
+    <string name="long_press_duration">长按时长</string>
+    <string name="custom_duration">自定义时长</string>
+    <string name="long_press_duration_desc">选择按住时间，或以毫秒为单位输入自定义时长。</string>
+    <string name="long_press_duration_hint">例如：500、1000 或 3000</string>
+    <string name="long_press_duration_invalid">时长至少需要 100 毫秒</string>
+    <string name="duration_500_ms">500 毫秒</string>
+    <string name="duration_1_s">1 秒</string>
+    <string name="duration_3_s">3 秒</string>
+    <string name="quick_duration">快速时长</string>
+    <string name="duration_in_milliseconds">时长（毫秒）</string>
+    <string name="save_duration">保存</string>
+    <string name="save_configuration">保存配置</string>
+    <string name="save_config_desc">为此配置起一个名字。</string>
+    <string name="configuration_name">配置名称</string>
+    <string name="default_configuration_name">我的配置</string>
+    <string name="untitled_configuration">未命名</string>
+    <string name="export_configuration">导出配置</string>
+    <string name="export_configuration_desc">选择备份此流程的方式。</string>
+    <string name="export_destination">导出到</string>
+    <string name="import_configuration">导入配置</string>
+    <string name="import_configuration_desc">选择加载备份的来源。</string>
+    <string name="import_source">导入自</string>
+    <string name="import_from_local_file">本地文件</string>
+    <string name="import_from_local_file_desc">从此设备选择 JSON 备份文件。</string>
+    <string name="import_from_google_drive">Google 云端硬盘</string>
+    <string name="import_from_google_drive_desc">打开文件选择器，从 Google 云端硬盘选择文件。</string>
+    <string name="google_drive_unavailable">未安装 Google 云端硬盘</string>
+    <string name="save_to_local_file">保存到设备</string>
+    <string name="save_to_local_file_desc">在此设备上创建 JSON 备份。</string>
+    <string name="share_with_other">分享</string>
+    <string name="share_with_other_desc">通过其他应用发送备份。</string>
+    <string name="save_to_google_drive">保存到 Google 云端硬盘</string>
+    <string name="save_to_google_drive_desc">打开文件选择器并保存到 Google 云端硬盘。</string>
+
+    <!-- Premium Dialog -->
+    <string name="premium_price_loading">正在从 Google Play 获取价格…</string>
+    <string name="premium_discount_default">折扣和最终价格由 Google Play 显示。</string>
+    <string name="premium_benefits_title">解锁内容</string>
+    <string name="premium_benefits_list">文件夹、固定、复制、搜索、排序和云端备份。</string>
+    <string name="free_vs_premium">免费版 vs 高级版</string>
+    <string name="feature">功能</string>
+    <string name="free">免费版</string>
+    <string name="premium">高级版</string>
+    <string name="restore">恢复购买</string>
+    <string name="upgrade">升级</string>
+    <string name="premium_compare_folders">文件夹</string>
+    <string name="premium_compare_pin_clone">固定 &amp; 复制</string>
+    <string name="premium_compare_search_sort">搜索 &amp; 排序</string>
+    <string name="premium_compare_drive">云端备份</string>
+    <string name="premium_compare_unlimited">无限制</string>
+    <string name="premium_product_id">一次性购买：premium_upgrade</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_config_desc">设置自动点击器的运行方式。</string>
+    <string name="max_clicks">最大流程次数（0 = 无限）</string>
+    <string name="click_interval">点击间隔（毫秒，最小 100）</string>
+    <string name="invalid_input">输入无效</string>
+    <string name="interval_too_low">间隔至少需要 100 毫秒</string>
+
+    <!-- Notification -->
+    <string name="notification_running_title">自动点击器正在运行</string>
+    <string name="notification_running_text">运行中…</string>
+    <string name="notification_channel_name">自动点击器服务</string>
+    <string name="notification_channel_description">自动点击器运行时显示</string>
+
+    <!-- Menu -->
+    <string name="menu_export">导出流程</string>
+    <string name="menu_import">导入流程</string>
+    <string name="menu_stop">停止点击器</string>
+
+    <!-- Messages -->
+    <string name="restore_successful">恢复成功</string>
+    <string name="restore_failed_invalid_file">恢复失败：文件无效</string>
+    <string name="restore_failed_cannot_read_file">恢复失败：无法读取文件</string>
+    <string name="file_saved_successfully">文件已保存</string>
+    <string name="failed_to_save_file">文件保存失败</string>
+    <string name="loaded_flow">已加载：%1$s</string>
+    <string name="share_backup">分享备份</string>
+    <string name="export_failed">导出失败</string>
+    <string name="configuration_saved">配置已保存</string>
+    <string name="limit_reached">已达上限</string>
+    <string name="example_double_tap_center">示例：居中双击</string>
+
+    <!-- FlowEditorActivity -->
+    <string name="edit_flow">编辑流程</string>
+    <string name="new_flow">新建流程</string>
+    <string name="section_flow_info">流程设置</string>
+    <string name="section_click_points">点击点</string>
+    <string name="section_timing">时间设置</string>
+    <string name="loop_delay_hint">循环延迟（毫秒）</string>
+    <string name="add_point">添加点击点</string>
+    <string name="no_points_title">暂无点击点</string>
+    <string name="no_points_desc">点击"添加点击点"来设置点击器的点击位置和方式。</string>
+    <string name="point_delay_hint">点击前延迟</string>
+    <string name="point_repeat_hint">重复 ×N</string>
+    <string name="swipe_duration_hint">滑动时长</string>
+    <string name="flow_saved">流程已保存</string>
+    <string name="flow_name_empty">请输入流程名称</string>
+    <string name="edit">编辑</string>
+    <string name="point_count">%1$d 个点</string>
+    <string name="point_detail_click">延迟 %1$d 毫秒 · 重复 ×%2$d</string>
+    <string name="point_detail_swipe">滑动 %1$d 毫秒 · 延迟 %2$d 毫秒</string>
+    <string name="point_detail_long_press">按住 %1$d 毫秒 · 延迟 %2$d 毫秒</string>
+    <string name="action_summary">操作：%1$s</string>
+</resources>

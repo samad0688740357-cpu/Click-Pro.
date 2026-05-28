@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- Outer circle -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_target_ring" />
+
+    <!-- Center dot crosshair -->
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_circle_accent" />
+
+    <!-- Number Label (for multi-target) -->
+    <TextView
+        android:id="@+id/tvTargetNumber"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/bg_circle_accent"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:visibility="gone" />
+
+</FrameLayout>

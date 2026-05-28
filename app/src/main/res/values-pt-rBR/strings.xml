@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="app_subtitle">Escolha um modo para começar</string>
+    <string name="choose_mode">Escolher Modo</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">Auto Clicker</string>
+    <string name="accessibility_service_description">Ative o Auto Clicker para simular toques na tela e exibir o botão flutuante sobre outros apps.</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_required_title">Permissão de acessibilidade necessária</string>
+    <string name="accessibility_required_msg">Ative o Auto Clicker nas configurações de Acessibilidade para permitir a simulação de toques e o botão de sobreposição flutuante.</string>
+    <string name="open_settings">Abrir Configurações</string>
+    <string name="settings_short">Configurações</string>
+    <string name="accessibility_enabled_title">Acessibilidade ativa</string>
+    <string name="accessibility_enabled_msg">O Auto Clicker já pode simular toques. Toque abaixo para abrir as configurações de Acessibilidade e desativá-lo.</string>
+    <string name="disable_accessibility">Desativar nas Configurações</string>
+
+    <!-- Main screen cards -->
+    <string name="single_target_mode">Alvo Único</string>
+    <string name="single_target_desc">Um ponto de toque que você pode arrastar para qualquer lugar da tela.</string>
+    <string name="multi_target_mode">Múltiplos Alvos</string>
+    <string name="multi_target_desc">Vários pontos de toque que executam em sequência, com suporte a deslize.</string>
+    <string name="badge_simple">Simples</string>
+    <string name="badge_pro">Pro</string>
+    <string name="badge_single_point">1 Ponto</string>
+    <string name="badge_multi_point">Vários Pontos</string>
+    <string name="add_quick_start_shortcut">Adicionar Atalho de Início Rápido</string>
+    <string name="add_shortcut">+ Atalho</string>
+    <string name="single_quick_start_shortcut">Início Rápido Único</string>
+    <string name="multi_quick_start_shortcut">Início Rápido Multi</string>
+    <string name="shortcut_added">Solicitação de atalho enviada ao launcher</string>
+    <string name="shortcut_not_supported">Seu launcher não suporta atalhos fixados</string>
+
+    <!-- History page -->
+    <string name="history_title">Histórico</string>
+    <string name="history_subtitle">Configurações e fluxos salvos</string>
+    <string name="nav_clicker">Clicker</string>
+    <string name="saved_flow">Fluxo salvo</string>
+    <string name="import_config">Importar</string>
+    <string name="export">Exportar</string>
+    <string name="use">Usar</string>
+    <string name="reuse">Reutilizar</string>
+    <string name="empty_config_title">Nenhuma configuração ainda</string>
+    <string name="empty_config_desc">Ative um modo e salve suas configurações para vê-las aqui.</string>
+    <string name="premium_lifetime">Premium Vitalício</string>
+    <string name="premium_active">Premium Ativo</string>
+    <string name="premium_short">Premium</string>
+    <string name="active_short">PREMIUM</string>
+    <string name="search_history">Buscar histórico</string>
+    <string name="new_folder">Nova Pasta</string>
+    <string name="folder">Pasta</string>
+    <string name="manage_folders">Gerenciar Pastas</string>
+    <string name="manage_folders_desc">Arraste para reordenar, toque para renomear ou adicione uma nova pasta.</string>
+    <string name="add_folder">Adicionar Pasta</string>
+    <string name="drag_folder">Arrastar pasta</string>
+    <string name="no_folders_yet">Nenhuma pasta ainda</string>
+    <string name="folder_name">Nome da pasta</string>
+    <string name="folder_dialog_desc">Crie uma pasta para organizar suas configurações premium do Histórico.</string>
+    <string name="folder_name_chip">Pasta: %1$s</string>
+    <string name="all_folders">Todas</string>
+    <string name="uncategorized">Sem categoria</string>
+    <string name="pin_folder">Fixar Pasta</string>
+    <string name="unpin_folder">Desafixar Pasta</string>
+    <string name="rename_folder">Renomear Pasta</string>
+    <string name="delete_folder">Excluir Pasta</string>
+    <string name="delete_folder_message">Excluir \"%1$s\"? As configurações dentro dela também serão excluídas.</string>
+    <string name="create_folder">Criar Pasta</string>
+    <string name="move_to_folder">Mover para Pasta</string>
+    <string name="move_folder_short">Mover Pasta</string>
+    <string name="clone">Duplicar</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_config">Excluir Configuração</string>
+    <string name="delete_config_message">Excluir \"%1$s\"? Isso não pode ser desfeito.</string>
+    <string name="more_actions">Mais</string>
+    <string name="pin">Fixar</string>
+    <string name="unpin">Desafixar</string>
+    <string name="drive_import">Importar do Drive</string>
+    <string name="drive_export">Exportar para Drive</string>
+    <string name="sort">Ordenar</string>
+    <string name="sort_history">Ordenar Histórico</string>
+    <string name="sort_date_desc">Mais recentes primeiro</string>
+    <string name="sort_date_asc">Mais antigos primeiro</string>
+    <string name="sort_name_asc">Nome A–Z</string>
+    <string name="sort_name_desc">Nome Z–A</string>
+    <string name="premium_required">Premium necessário</string>
+
+    <!-- Actions -->
+    <string name="enable">Ativar</string>
+    <string name="settings">Configurações</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="start_stop">Iniciar / Parar</string>
+    <string name="close">Fechar sobreposição</string>
+
+    <!-- Overlay Actions -->
+    <string name="add_target">Adicionar alvo</string>
+    <string name="add_swipe">Adicionar deslize</string>
+    <string name="add_long_press">Adicionar toque longo</string>
+    <string name="choose_action">Escolher ação</string>
+    <string name="remove_target">Remover alvo</string>
+    <string name="hide_show">Ocultar / Mostrar</string>
+    <string name="show_more">Mostrar mais</string>
+    <string name="show_less">Mostrar menos</string>
+    <string name="edit_target">Editar alvo</string>
+    <string name="set_as_click">Definir como Toque</string>
+    <string name="set_as_swipe">Definir como Deslize</string>
+    <string name="set_as_long_press">Definir como Toque Longo</string>
+    <string name="action_click">Toque</string>
+    <string name="action_swipe">Deslize</string>
+    <string name="action_long_press">Toque longo</string>
+    <string name="action_click_desc">Toque rápido no ponto alvo.</string>
+    <string name="action_swipe_desc">Arraste de um ponto inicial até um ponto final.</string>
+    <string name="action_long_press_desc">Segure no ponto alvo por %1$d ms.</string>
+    <string name="target_summary">Ação do alvo: %1$s</string>
+    <string name="preview_current_action">Ação atual: Toque</string>
+    <string name="preview_long_press_desc">Segure no ponto alvo por 1000 ms.</string>
+    <string name="action_type">Tipo de ação</string>
+    <string name="apply_action">Aplicar</string>
+    <string name="save_action">Salvar</string>
+    <string name="chip_single">Único</string>
+    <string name="chip_multi">Multi</string>
+    <string name="infinite_loop">∞ Loop</string>
+    <string name="loop_count">%1$d Loop</string>
+    <string name="swipe_start_marker">I</string>
+    <string name="long_press_marker">L</string>
+    <string name="swipe_end_marker">F</string>
+    <string name="indexed_swipe_start_marker">%1$dI</string>
+    <string name="indexed_long_press_marker">%1$dL</string>
+    <string name="indexed_swipe_end_marker">%1$dF</string>
+
+    <!-- Dialogs -->
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Concluído</string>
+    <string name="discard_changes">Descartar</string>
+    <string name="long_press_duration">Duração do toque longo</string>
+    <string name="custom_duration">Duração personalizada</string>
+    <string name="long_press_duration_desc">Escolha um tempo de espera ou insira uma duração personalizada em milissegundos.</string>
+    <string name="long_press_duration_hint">ex.: 500, 1000 ou 3000</string>
+    <string name="long_press_duration_invalid">A duração deve ser de pelo menos 100 ms</string>
+    <string name="duration_500_ms">500 ms</string>
+    <string name="duration_1_s">1 s</string>
+    <string name="duration_3_s">3 s</string>
+    <string name="quick_duration">Duração rápida</string>
+    <string name="duration_in_milliseconds">Duração (ms)</string>
+    <string name="save_duration">Salvar</string>
+    <string name="save_configuration">Salvar Configuração</string>
+    <string name="save_config_desc">Dê um nome a esta configuração.</string>
+    <string name="configuration_name">Nome da configuração</string>
+    <string name="default_configuration_name">Minha Configuração</string>
+    <string name="untitled_configuration">Sem título</string>
+    <string name="export_configuration">Exportar Configuração</string>
+    <string name="export_configuration_desc">Escolha como quer fazer backup deste fluxo.</string>
+    <string name="export_destination">Exportar para</string>
+    <string name="import_configuration">Importar Configuração</string>
+    <string name="import_configuration_desc">Escolha de onde carregar o backup.</string>
+    <string name="import_source">Importar de</string>
+    <string name="import_from_local_file">Arquivo Local</string>
+    <string name="import_from_local_file_desc">Escolha um backup JSON deste dispositivo.</string>
+    <string name="import_from_google_drive">Google Drive</string>
+    <string name="import_from_google_drive_desc">Abra o seletor de arquivos e escolha um arquivo do Google Drive.</string>
+    <string name="google_drive_unavailable">Google Drive não está instalado</string>
+    <string name="save_to_local_file">Salvar no Dispositivo</string>
+    <string name="save_to_local_file_desc">Crie um backup JSON neste dispositivo.</string>
+    <string name="share_with_other">Compartilhar</string>
+    <string name="share_with_other_desc">Envie o backup por outro app.</string>
+    <string name="save_to_google_drive">Salvar no Google Drive</string>
+    <string name="save_to_google_drive_desc">Abra o seletor de arquivos e salve no Google Drive.</string>
+
+    <!-- Premium Dialog -->
+    <string name="premium_price_loading">Buscando preço no Google Play…</string>
+    <string name="premium_discount_default">Descontos e preço final são exibidos pelo Google Play.</string>
+    <string name="premium_benefits_title">O que você desbloqueia</string>
+    <string name="premium_benefits_list">Pastas, fixação, duplicação, busca, ordenação e backup no Drive.</string>
+    <string name="free_vs_premium">Grátis vs Premium</string>
+    <string name="feature">Recurso</string>
+    <string name="free">Grátis</string>
+    <string name="premium">Premium</string>
+    <string name="restore">Restaurar</string>
+    <string name="upgrade">Fazer upgrade</string>
+    <string name="premium_compare_folders">Pastas</string>
+    <string name="premium_compare_pin_clone">Fixar &amp; duplicar</string>
+    <string name="premium_compare_search_sort">Buscar &amp; ordenar</string>
+    <string name="premium_compare_drive">Backup no Drive</string>
+    <string name="premium_compare_unlimited">Sem limites</string>
+    <string name="premium_product_id">Compra única: premium_upgrade</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_config_desc">Defina como o auto clicker deve se comportar.</string>
+    <string name="max_clicks">Máx. de fluxos (0 = infinito)</string>
+    <string name="click_interval">Intervalo de toque (ms, mín. 100)</string>
+    <string name="invalid_input">Entrada inválida</string>
+    <string name="interval_too_low">O intervalo deve ser de pelo menos 100 ms</string>
+
+    <!-- Notification -->
+    <string name="notification_running_title">Auto Clicker em execução</string>
+    <string name="notification_running_text">Executando…</string>
+    <string name="notification_channel_name">Serviço Auto Clicker</string>
+    <string name="notification_channel_description">Exibido enquanto o Auto Clicker estiver em execução</string>
+
+    <!-- Menu -->
+    <string name="menu_export">Exportar fluxo</string>
+    <string name="menu_import">Importar fluxo</string>
+    <string name="menu_stop">Parar clicker</string>
+
+    <!-- Messages -->
+    <string name="restore_successful">Restauração concluída</string>
+    <string name="restore_failed_invalid_file">Falha na restauração: arquivo inválido</string>
+    <string name="restore_failed_cannot_read_file">Falha na restauração: não foi possível ler o arquivo</string>
+    <string name="file_saved_successfully">Arquivo salvo</string>
+    <string name="failed_to_save_file">Não foi possível salvar o arquivo</string>
+    <string name="loaded_flow">Carregado: %1$s</string>
+    <string name="share_backup">Compartilhar Backup</string>
+    <string name="export_failed">Falha na exportação</string>
+    <string name="configuration_saved">Configuração salva</string>
+    <string name="limit_reached">Limite atingido</string>
+    <string name="example_double_tap_center">Exemplo: Toque Duplo no Centro</string>
+
+    <!-- FlowEditorActivity -->
+    <string name="edit_flow">Editar Fluxo</string>
+    <string name="new_flow">Novo Fluxo</string>
+    <string name="section_flow_info">CONFIGURAÇÕES DO FLUXO</string>
+    <string name="section_click_points">PONTOS DE TOQUE</string>
+    <string name="section_timing">TEMPORIZAÇÃO</string>
+    <string name="loop_delay_hint">Atraso do loop (ms)</string>
+    <string name="add_point">Adicionar ponto de toque</string>
+    <string name="no_points_title">Nenhum ponto de toque ainda</string>
+    <string name="no_points_desc">Toque em "Adicionar ponto de toque" para definir onde e como o clicker deve tocar.</string>
+    <string name="point_delay_hint">Atraso pré-toque</string>
+    <string name="point_repeat_hint">Repetir ×N</string>
+    <string name="swipe_duration_hint">Duração do deslize</string>
+    <string name="flow_saved">Fluxo salvo</string>
+    <string name="flow_name_empty">Insira um nome para o fluxo</string>
+    <string name="edit">Editar</string>
+    <string name="point_count">%1$d ponto(s)</string>
+    <string name="point_detail_click">Atraso %1$d ms · repetir ×%2$d</string>
+    <string name="point_detail_swipe">Deslize %1$d ms · atraso %2$d ms</string>
+    <string name="point_detail_long_press">Segurar %1$d ms · atraso %2$d ms</string>
+    <string name="action_summary">Ação: %1$s</string>
+</resources>

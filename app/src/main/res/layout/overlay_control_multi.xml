@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_float_panel"
+    android:elevation="12dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp">
+
+    <!-- Drag handle -->
+    <View
+        android:layout_width="22dp"
+        android:layout_height="3dp"
+        android:background="@color/drag_handle"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Start / Stop – prominent accent circle -->
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_btn_play"
+        android:contentDescription="@string/start_stop"
+        android:src="@drawable/ic_play"
+        android:padding="12dp"
+        android:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnShowMore"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/show_more"
+        android:src="@drawable/ic_expand_more"
+        android:padding="11dp"
+        android:tint="@color/text_secondary"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutExpandedControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Divider -->
+        <View
+            android:layout_width="28dp"
+            android:layout_height="1dp"
+            android:background="@color/color_outline"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Add Target -->
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/add_target"
+            android:src="@drawable/ic_add"
+            android:padding="11dp"
+            android:tint="@color/color_accent" />
+
+        <!-- Add Swipe -->
+        <ImageButton
+            android:id="@+id/btnAddSwipe"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/add_swipe"
+            android:src="@drawable/ic_swipe"
+            android:padding="11dp"
+            android:tint="@color/color_accent" />
+
+        <!-- Add Long Press -->
+        <ImageButton
+            android:id="@+id/btnAddLongPress"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/add_long_press"
+            android:src="@drawable/ic_long_press"
+            android:padding="11dp"
+            android:tint="@color/color_accent" />
+
+        <!-- Remove Target -->
+        <ImageButton
+            android:id="@+id/btnRemove"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/remove_target"
+            android:src="@drawable/ic_remove"
+            android:padding="11dp"
+            android:tint="@color/color_error" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="28dp"
+            android:layout_height="1dp"
+            android:background="@color/color_outline"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Settings -->
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/ic_settings"
+            android:padding="11dp"
+            android:tint="@color/text_secondary" />
+
+        <!-- Save -->
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/save"
+            android:src="@drawable/ic_save"
+            android:padding="11dp"
+            android:tint="@color/text_secondary" />
+
+        <!-- Hide / Show -->
+        <ImageButton
+            android:id="@+id/btnVisibility"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/hide_show"
+            android:src="@drawable/ic_visibility"
+            android:padding="11dp"
+            android:tint="@color/text_secondary" />
+
+        <ImageButton
+            android:id="@+id/btnShowLess"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/show_less"
+            android:src="@drawable/ic_expand_less"
+            android:padding="11dp"
+            android:tint="@color/text_secondary" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="28dp"
+            android:layout_height="1dp"
+            android:background="@color/color_outline"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Close overlay -->
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_close"
+            android:padding="11dp"
+            android:tint="@color/color_error" />
+    </LinearLayout>
+
+</LinearLayout>

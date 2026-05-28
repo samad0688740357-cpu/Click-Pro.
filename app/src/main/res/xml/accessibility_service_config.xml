@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Accessibility service configuration.
+  Key flags:
+    canPerformGestures="true"  – required for dispatchGesture() to work.
+    flagDefault               – receive accessibility events normally.
+  No specific package filter so the service can inject gestures into any app.
+-->
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canPerformGestures="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100"
+    android:packageNames=""
+    android:settingsActivity="id.biz.rrndev.autoclicker.ui.activity.MainActivity" />

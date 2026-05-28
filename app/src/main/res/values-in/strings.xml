@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="app_subtitle">Pilih mode clicker untuk mulai</string>
+    <string name="choose_mode">Pilih Mode</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">Auto Clicker</string>
+    <string name="accessibility_service_description">Aktifkan Auto Clicker untuk mensimulasi ketukan layar dan menampilkan tombol kontrol mengambang di atas aplikasi lain.</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_required_title">Izin aksesibilitas diperlukan</string>
+    <string name="accessibility_required_msg">Aktifkan Auto Clicker di pengaturan Aksesibilitas agar simulasi ketukan dan tombol overlay mengambang dapat digunakan.</string>
+    <string name="open_settings">Buka Pengaturan</string>
+    <string name="settings_short">Pengaturan</string>
+    <string name="accessibility_enabled_title">Aksesibilitas aktif</string>
+    <string name="accessibility_enabled_msg">Auto Clicker kini bisa mensimulasi ketukan. Ketuk di bawah untuk membuka pengaturan Aksesibilitas dan menonaktifkannya.</string>
+    <string name="disable_accessibility">Nonaktifkan di Pengaturan</string>
+
+    <!-- Main screen cards -->
+    <string name="single_target_mode">Target Tunggal</string>
+    <string name="single_target_desc">Satu titik ketuk yang bisa diseret ke mana saja di layar.</string>
+    <string name="multi_target_mode">Multi Target</string>
+    <string name="multi_target_desc">Beberapa titik ketuk yang berjalan berurutan, dengan dukungan geser.</string>
+    <string name="badge_simple">Sederhana</string>
+    <string name="badge_pro">Pro</string>
+    <string name="badge_single_point">1 Titik</string>
+    <string name="badge_multi_point">Multi Titik</string>
+    <string name="add_quick_start_shortcut">Tambah Pintasan Mulai Cepat</string>
+    <string name="add_shortcut">+ Pintasan</string>
+    <string name="single_quick_start_shortcut">Mulai Cepat Tunggal</string>
+    <string name="multi_quick_start_shortcut">Mulai Cepat Multi</string>
+    <string name="shortcut_added">Permintaan pintasan dikirim ke launcher</string>
+    <string name="shortcut_not_supported">Launcher kamu tidak mendukung pintasan yang disematkan</string>
+
+    <!-- History page -->
+    <string name="history_title">Riwayat</string>
+    <string name="history_subtitle">Konfigurasi &amp; alur tersimpan</string>
+    <string name="nav_clicker">Clicker</string>
+    <string name="saved_flow">Alur tersimpan</string>
+    <string name="import_config">Impor</string>
+    <string name="export">Ekspor</string>
+    <string name="use">Gunakan</string>
+    <string name="reuse">Pakai Lagi</string>
+    <string name="empty_config_title">Belum ada konfigurasi</string>
+    <string name="empty_config_desc">Aktifkan mode dan simpan pengaturanmu agar muncul di sini.</string>
+    <string name="premium_lifetime">Premium Seumur Hidup</string>
+    <string name="premium_active">Premium Aktif</string>
+    <string name="premium_short">Premium</string>
+    <string name="active_short">PREMIUM</string>
+    <string name="search_history">Cari riwayat</string>
+    <string name="new_folder">Folder Baru</string>
+    <string name="folder">Folder</string>
+    <string name="manage_folders">Kelola Folder</string>
+    <string name="manage_folders_desc">Seret untuk mengurutkan, ketuk untuk mengganti nama, atau tambah folder baru.</string>
+    <string name="add_folder">Tambah Folder</string>
+    <string name="drag_folder">Seret folder</string>
+    <string name="no_folders_yet">Belum ada folder</string>
+    <string name="folder_name">Nama folder</string>
+    <string name="folder_dialog_desc">Buat folder untuk merapikan konfigurasi History premiummu.</string>
+    <string name="folder_name_chip">Folder: %1$s</string>
+    <string name="all_folders">Semua</string>
+    <string name="uncategorized">Tanpa Kategori</string>
+    <string name="pin_folder">Sematkan Folder</string>
+    <string name="unpin_folder">Lepas Sematan Folder</string>
+    <string name="rename_folder">Ganti Nama Folder</string>
+    <string name="delete_folder">Hapus Folder</string>
+    <string name="delete_folder_message">Hapus \"%1$s\"? Konfigurasi di dalamnya juga akan dihapus.</string>
+    <string name="create_folder">Buat Folder</string>
+    <string name="move_to_folder">Pindah ke Folder</string>
+    <string name="move_folder_short">Pindah Folder</string>
+    <string name="clone">Duplikat</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_config">Hapus Konfigurasi</string>
+    <string name="delete_config_message">Hapus \"%1$s\"? Tindakan ini tidak bisa dibatalkan.</string>
+    <string name="more_actions">Lainnya</string>
+    <string name="pin">Sematkan</string>
+    <string name="unpin">Lepas Sematan</string>
+    <string name="drive_import">Impor dari Drive</string>
+    <string name="drive_export">Ekspor ke Drive</string>
+    <string name="sort">Urutkan</string>
+    <string name="sort_history">Urutkan Riwayat</string>
+    <string name="sort_date_desc">Terbaru dulu</string>
+    <string name="sort_date_asc">Terlama dulu</string>
+    <string name="sort_name_asc">Nama A–Z</string>
+    <string name="sort_name_desc">Nama Z–A</string>
+    <string name="premium_required">Perlu Premium</string>
+
+    <!-- Actions -->
+    <string name="enable">Aktifkan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="start">Mulai</string>
+    <string name="stop">Berhenti</string>
+    <string name="start_stop">Mulai / Berhenti</string>
+    <string name="close">Tutup overlay</string>
+
+    <!-- Overlay Actions -->
+    <string name="add_target">Tambah target</string>
+    <string name="add_swipe">Tambah geser</string>
+    <string name="add_long_press">Tambah tahan</string>
+    <string name="choose_action">Pilih aksi</string>
+    <string name="remove_target">Hapus target</string>
+    <string name="hide_show">Sembunyikan / Tampilkan</string>
+    <string name="show_more">Tampilkan lebih</string>
+    <string name="show_less">Tampilkan lebih sedikit</string>
+    <string name="edit_target">Edit target</string>
+    <string name="set_as_click">Jadikan Ketuk</string>
+    <string name="set_as_swipe">Jadikan Geser</string>
+    <string name="set_as_long_press">Jadikan Tahan</string>
+    <string name="action_click">Ketuk</string>
+    <string name="action_swipe">Geser</string>
+    <string name="action_long_press">Tahan</string>
+    <string name="action_click_desc">Ketukan cepat di titik target.</string>
+    <string name="action_swipe_desc">Seret dari titik awal ke titik akhir.</string>
+    <string name="action_long_press_desc">Tahan di titik target selama %1$d md.</string>
+    <string name="target_summary">Aksi target: %1$s</string>
+    <string name="preview_current_action">Aksi saat ini: Ketuk</string>
+    <string name="preview_long_press_desc">Tahan di titik target selama 1000 md.</string>
+    <string name="action_type">Jenis aksi</string>
+    <string name="apply_action">Terapkan</string>
+    <string name="save_action">Simpan</string>
+    <string name="chip_single">Tunggal</string>
+    <string name="chip_multi">Multi</string>
+    <string name="infinite_loop">∞ Loop</string>
+    <string name="loop_count">%1$d Loop</string>
+    <string name="swipe_start_marker">A</string>
+    <string name="long_press_marker">T</string>
+    <string name="swipe_end_marker">B</string>
+    <string name="indexed_swipe_start_marker">%1$dA</string>
+    <string name="indexed_long_press_marker">%1$dT</string>
+    <string name="indexed_swipe_end_marker">%1$dB</string>
+
+    <!-- Dialogs -->
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="done">Selesai</string>
+    <string name="discard_changes">Buang</string>
+    <string name="long_press_duration">Durasi tahan</string>
+    <string name="custom_duration">Durasi kustom</string>
+    <string name="long_press_duration_desc">Pilih durasi tahan atau masukkan nilai kustom dalam milidetik.</string>
+    <string name="long_press_duration_hint">mis. 500, 1000, atau 3000</string>
+    <string name="long_press_duration_invalid">Durasi minimal 100 md</string>
+    <string name="duration_500_ms">500 md</string>
+    <string name="duration_1_s">1 d</string>
+    <string name="duration_3_s">3 d</string>
+    <string name="quick_duration">Durasi cepat</string>
+    <string name="duration_in_milliseconds">Durasi (md)</string>
+    <string name="save_duration">Simpan</string>
+    <string name="save_configuration">Simpan Konfigurasi</string>
+    <string name="save_config_desc">Beri nama untuk konfigurasi ini.</string>
+    <string name="configuration_name">Nama konfigurasi</string>
+    <string name="default_configuration_name">Konfigurasi Saya</string>
+    <string name="untitled_configuration">Tanpa Judul</string>
+    <string name="export_configuration">Ekspor Konfigurasi</string>
+    <string name="export_configuration_desc">Pilih cara mencadangkan alur ini.</string>
+    <string name="export_destination">Ekspor ke</string>
+    <string name="import_configuration">Impor Konfigurasi</string>
+    <string name="import_configuration_desc">Pilih sumber cadangan yang ingin dimuat.</string>
+    <string name="import_source">Impor dari</string>
+    <string name="import_from_local_file">File Lokal</string>
+    <string name="import_from_local_file_desc">Pilih cadangan JSON dari perangkat ini.</string>
+    <string name="import_from_google_drive">Google Drive</string>
+    <string name="import_from_google_drive_desc">Buka pemilih file dan pilih file dari Google Drive.</string>
+    <string name="google_drive_unavailable">Google Drive tidak terpasang</string>
+    <string name="save_to_local_file">Simpan ke Perangkat</string>
+    <string name="save_to_local_file_desc">Buat cadangan JSON di perangkat ini.</string>
+    <string name="share_with_other">Bagikan</string>
+    <string name="share_with_other_desc">Kirim cadangan lewat aplikasi lain.</string>
+    <string name="save_to_google_drive">Simpan ke Google Drive</string>
+    <string name="save_to_google_drive_desc">Buka pemilih file dan simpan ke Google Drive.</string>
+
+    <!-- Premium Dialog -->
+    <string name="premium_price_loading">Mengambil harga dari Google Play…</string>
+    <string name="premium_discount_default">Diskon dan harga akhir ditampilkan oleh Google Play.</string>
+    <string name="premium_benefits_title">Yang kamu buka</string>
+    <string name="premium_benefits_list">Folder, sematan, duplikat, pencarian, pengurutan, dan cadangan Drive.</string>
+    <string name="free_vs_premium">Gratis vs Premium</string>
+    <string name="feature">Fitur</string>
+    <string name="free">Gratis</string>
+    <string name="premium">Premium</string>
+    <string name="restore">Pulihkan</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="premium_compare_folders">Folder</string>
+    <string name="premium_compare_pin_clone">Sematan &amp; duplikat</string>
+    <string name="premium_compare_search_sort">Cari &amp; urutkan</string>
+    <string name="premium_compare_drive">Cadangan Drive</string>
+    <string name="premium_compare_unlimited">Tanpa batas</string>
+    <string name="premium_product_id">Pembelian sekali: premium_upgrade</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_config_desc">Atur cara kerja auto clicker.</string>
+    <string name="max_clicks">Maks alur (0 = tak terbatas)</string>
+    <string name="click_interval">Interval ketuk (md, min 100)</string>
+    <string name="invalid_input">Input tidak valid</string>
+    <string name="interval_too_low">Interval minimal 100 md</string>
+
+    <!-- Notification -->
+    <string name="notification_running_title">Auto Clicker berjalan</string>
+    <string name="notification_running_text">Berjalan…</string>
+    <string name="notification_channel_name">Layanan Auto Clicker</string>
+    <string name="notification_channel_description">Ditampilkan saat Auto Clicker berjalan</string>
+
+    <!-- Menu -->
+    <string name="menu_export">Ekspor alur</string>
+    <string name="menu_import">Impor alur</string>
+    <string name="menu_stop">Hentikan clicker</string>
+
+    <!-- Messages -->
+    <string name="restore_successful">Pemulihan berhasil</string>
+    <string name="restore_failed_invalid_file">Pemulihan gagal: file tidak valid</string>
+    <string name="restore_failed_cannot_read_file">Pemulihan gagal: file tidak bisa dibaca</string>
+    <string name="file_saved_successfully">File tersimpan</string>
+    <string name="failed_to_save_file">File gagal disimpan</string>
+    <string name="loaded_flow">Dimuat: %1$s</string>
+    <string name="share_backup">Bagikan Cadangan</string>
+    <string name="export_failed">Ekspor gagal</string>
+    <string name="configuration_saved">Konfigurasi tersimpan</string>
+    <string name="limit_reached">Batas tercapai</string>
+    <string name="example_double_tap_center">Contoh: Ketuk Dua Kali Tengah</string>
+
+    <!-- FlowEditorActivity -->
+    <string name="edit_flow">Edit Alur</string>
+    <string name="new_flow">Alur Baru</string>
+    <string name="section_flow_info">PENGATURAN ALUR</string>
+    <string name="section_click_points">TITIK KETUK</string>
+    <string name="section_timing">WAKTU</string>
+    <string name="loop_delay_hint">Jeda loop (md)</string>
+    <string name="add_point">Tambah titik ketuk</string>
+    <string name="no_points_title">Belum ada titik ketuk</string>
+    <string name="no_points_desc">Ketuk "Tambah titik ketuk" untuk menentukan di mana dan bagaimana clicker mengetuk.</string>
+    <string name="point_delay_hint">Jeda sebelum ketuk</string>
+    <string name="point_repeat_hint">Ulangi ×N</string>
+    <string name="swipe_duration_hint">Durasi geser</string>
+    <string name="flow_saved">Alur tersimpan</string>
+    <string name="flow_name_empty">Masukkan nama alur</string>
+    <string name="edit">Edit</string>
+    <string name="point_count">%1$d titik</string>
+    <string name="point_detail_click">Jeda %1$d md · ulangi ×%2$d</string>
+    <string name="point_detail_swipe">Geser %1$d md · jeda %2$d md</string>
+    <string name="point_detail_long_press">Tahan %1$d md · jeda %2$d md</string>
+    <string name="action_summary">Aksi: %1$s</string>
+</resources>

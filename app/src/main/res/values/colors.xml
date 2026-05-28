@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="bg">#F5F4F0</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface2">#EEECEA</color>
+    <color name="border">#E0DDD8</color>
+    <color name="text_primary">#1A1917</color>
+    <color name="text_secondary">#6B6860</color>
+    <color name="text_muted">#A8A49E</color>
+    <color name="accent">#5B4FE8</color>
+    <color name="accent_light">#EAE8FD</color>
+    <color name="accent_mid">#8B82F0</color>
+    <color name="danger">#E05252</color>
+    <color name="danger_light">#FDEAEA</color>
+    <color name="green">#3DAA6E</color>
+    <color name="green_light">#E8F7EF</color>
+
+    <!-- Legacy color aliases to prevent build breakages initially -->
+    <color name="color_accent">@color/accent</color>
+    <color name="color_accent_variant">@color/accent_mid</color>
+    <color name="color_accent_container">@color/accent_light</color>
+    <color name="color_on_accent_container">@color/accent</color>
+    <color name="color_accent_green">@color/green</color>
+    <color name="color_accent_green_container">@color/green_light</color>
+    <color name="color_on_accent_green_container">@color/green</color>
+    <color name="bg_primary">@color/bg</color>
+    <color name="bg_surface">@color/surface</color>
+    <color name="bg_card">@color/surface</color>
+    <color name="canvas_bg">@color/bg</color>
+    <color name="drag_handle">#44000000</color>
+    <color name="color_outline">@color/border</color>
+    <color name="color_success">@color/green</color>
+    <color name="color_error">@color/danger</color>
+    <color name="color_warning_surface">#FFF8ED</color>
+    <color name="color_warning_text">#F57C00</color>
+    <color name="chip_bg">@color/accent_light</color>
+    <color name="chip_green_bg">@color/green_light</color>
+</resources>

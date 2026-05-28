@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="app_subtitle">Pick a clicker mode to get started</string>
+    <string name="choose_mode">Choose Mode</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">Auto Clicker</string>
+    <string name="accessibility_service_description">Enable Auto Clicker to simulate screen taps and show the floating control button on top of other apps.</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_required_title">Accessibility permission needed</string>
+    <string name="accessibility_required_msg">Enable Auto Clicker in Accessibility settings to allow tap simulation and the floating overlay button.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="settings_short">Settings</string>
+    <string name="accessibility_enabled_title">Accessibility is active</string>
+    <string name="accessibility_enabled_msg">Auto Clicker can now simulate taps. Tap below to open Accessibility settings and turn it off.</string>
+    <string name="disable_accessibility">Disable in Settings</string>
+
+    <!-- Main screen cards -->
+    <string name="single_target_mode">Single Target</string>
+    <string name="single_target_desc">One tap point you can drag anywhere on screen.</string>
+    <string name="multi_target_mode">Multi Target</string>
+    <string name="multi_target_desc">Multiple tap points that run in order, with swipe support.</string>
+    <string name="badge_simple">Simple</string>
+    <string name="badge_pro">Pro</string>
+    <string name="badge_single_point">1 Point</string>
+    <string name="badge_multi_point">Multi Point</string>
+    <string name="add_quick_start_shortcut">Add Quick Start Shortcut</string>
+    <string name="add_shortcut">+ Shortcut</string>
+    <string name="single_quick_start_shortcut">Single Quick Start</string>
+    <string name="multi_quick_start_shortcut">Multi Quick Start</string>
+    <string name="shortcut_added">Shortcut request sent to your launcher</string>
+    <string name="shortcut_not_supported">Your launcher doesn\'t support pinned shortcuts</string>
+
+    <!-- History page -->
+    <string name="history_title">History</string>
+    <string name="history_subtitle">Saved configs and flows</string>
+    <string name="nav_clicker">Clicker</string>
+    <string name="saved_flow">Saved flow</string>
+    <string name="import_config">Import</string>
+    <string name="export">Export</string>
+    <string name="use">Use</string>
+    <string name="reuse">Reuse</string>
+    <string name="empty_config_title">No configs yet</string>
+    <string name="empty_config_desc">Enable a mode and save your settings to see them here.</string>
+    <string name="premium_lifetime">Lifetime Premium</string>
+    <string name="premium_active">Premium Active</string>
+    <string name="premium_short">Premium</string>
+    <string name="active_short">PREMIUM</string>
+    <string name="search_history">Search history</string>
+    <string name="new_folder">New Folder</string>
+    <string name="folder">Folder</string>
+    <string name="manage_folders">Manage Folders</string>
+    <string name="manage_folders_desc">Drag to reorder, tap to rename, or add a new folder.</string>
+    <string name="add_folder">Add Folder</string>
+    <string name="drag_folder">Drag folder</string>
+    <string name="no_folders_yet">No folders yet</string>
+    <string name="folder_name">Folder name</string>
+    <string name="folder_dialog_desc">Create a folder to keep your premium History configs organized.</string>
+    <string name="folder_name_chip">Folder: %1$s</string>
+    <string name="all_folders">All</string>
+    <string name="uncategorized">Uncategorized</string>
+    <string name="pin_folder">Pin Folder</string>
+    <string name="unpin_folder">Unpin Folder</string>
+    <string name="rename_folder">Rename Folder</string>
+    <string name="delete_folder">Delete Folder</string>
+    <string name="delete_folder_message">Delete "%1$s"? Configs inside will be deleted too.</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="move_to_folder">Move to Folder</string>
+    <string name="move_folder_short">Move Folder</string>
+    <string name="clone">Clone</string>
+    <string name="delete">Delete</string>
+    <string name="delete_config">Delete Config</string>
+    <string name="delete_config_message">Delete "%1$s"? This can\'t be undone.</string>
+    <string name="more_actions">More</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="drive_import">Drive Import</string>
+    <string name="drive_export">Drive Export</string>
+    <string name="sort">Sort</string>
+    <string name="sort_history">Sort History</string>
+    <string name="sort_date_desc">Newest first</string>
+    <string name="sort_date_asc">Oldest first</string>
+    <string name="sort_name_asc">Name A–Z</string>
+    <string name="sort_name_desc">Name Z–A</string>
+    <string name="premium_required">Premium required</string>
+
+    <!-- Actions -->
+    <string name="enable">Enable</string>
+    <string name="settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="start_stop">Start / Stop</string>
+    <string name="close">Close overlay</string>
+
+    <!-- Overlay Actions -->
+    <string name="add_target">Add target</string>
+    <string name="add_swipe">Add swipe</string>
+    <string name="add_long_press">Add long press</string>
+    <string name="choose_action">Choose action</string>
+    <string name="remove_target">Remove target</string>
+    <string name="hide_show">Hide / Show</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+    <string name="edit_target">Edit target</string>
+    <string name="set_as_click">Set as Click</string>
+    <string name="set_as_swipe">Set as Swipe</string>
+    <string name="set_as_long_press">Set as Long Press</string>
+    <string name="action_click">Click</string>
+    <string name="action_swipe">Swipe</string>
+    <string name="action_long_press">Long press</string>
+    <string name="action_click_desc">Quick tap at the target point.</string>
+    <string name="action_swipe_desc">Drag from a start point to an end point.</string>
+    <string name="action_long_press_desc">Hold at the target point for %1$d ms.</string>
+    <string name="target_summary">Target action: %1$s</string>
+    <string name="preview_current_action">Current action: Click</string>
+    <string name="preview_long_press_desc">Hold at the target point for 1000 ms.</string>
+    <string name="action_type">Action type</string>
+    <string name="apply_action">Apply</string>
+    <string name="save_action">Save</string>
+    <string name="chip_single">Single</string>
+    <string name="chip_multi">Multi</string>
+    <string name="infinite_loop">∞ Loop</string>
+    <string name="loop_count">%1$d Loop</string>
+    <string name="swipe_start_marker">S</string>
+    <string name="long_press_marker">L</string>
+    <string name="swipe_end_marker">E</string>
+    <string name="indexed_swipe_start_marker">%1$dS</string>
+    <string name="indexed_long_press_marker">%1$dL</string>
+    <string name="indexed_swipe_end_marker">%1$dE</string>
+
+    <!-- Dialogs -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="discard_changes">Discard</string>
+    <string name="long_press_duration">Long press duration</string>
+    <string name="custom_duration">Custom duration</string>
+    <string name="long_press_duration_desc">Pick a hold time or enter a custom duration in milliseconds.</string>
+    <string name="long_press_duration_hint">e.g. 500, 1000, or 3000</string>
+    <string name="long_press_duration_invalid">Duration must be at least 100 ms</string>
+    <string name="duration_500_ms">500 ms</string>
+    <string name="duration_1_s">1 s</string>
+    <string name="duration_3_s">3 s</string>
+    <string name="quick_duration">Quick duration</string>
+    <string name="duration_in_milliseconds">Duration (ms)</string>
+    <string name="save_duration">Save</string>
+    <string name="save_configuration">Save Config</string>
+    <string name="save_config_desc">Give this configuration a name.</string>
+    <string name="configuration_name">Config name</string>
+    <string name="default_configuration_name">My Config</string>
+    <string name="untitled_configuration">Untitled</string>
+    <string name="export_configuration">Export Config</string>
+    <string name="export_configuration_desc">Choose how you want to back up this flow.</string>
+    <string name="export_destination">Export to</string>
+    <string name="import_configuration">Import Config</string>
+    <string name="import_configuration_desc">Choose where to load your backup from.</string>
+    <string name="import_source">Import from</string>
+    <string name="import_from_local_file">Local File</string>
+    <string name="import_from_local_file_desc">Pick a JSON backup from this device.</string>
+    <string name="import_from_google_drive">Google Drive</string>
+    <string name="import_from_google_drive_desc">Open the file picker and select a file from Google Drive.</string>
+    <string name="google_drive_unavailable">Google Drive is not installed</string>
+    <string name="save_to_local_file">Save to Device</string>
+    <string name="save_to_local_file_desc">Create a JSON backup on this device.</string>
+    <string name="share_with_other">Share</string>
+    <string name="share_with_other_desc">Send the backup through another app.</string>
+    <string name="save_to_google_drive">Save to Google Drive</string>
+    <string name="save_to_google_drive_desc">Open the file picker and save to Google Drive.</string>
+
+    <!-- Premium Dialog -->
+    <string name="premium_price_loading">Fetching price from Google Play…</string>
+    <string name="premium_discount_default">Any discounts and final pricing are shown by Google Play.</string>
+    <string name="premium_benefits_title">What you unlock</string>
+    <string name="premium_benefits_list">Folders, pins, clone, search, sort, and Drive backup.</string>
+    <string name="free_vs_premium">Free vs Premium</string>
+    <string name="feature">Feature</string>
+    <string name="free">Free</string>
+    <string name="premium">Premium</string>
+    <string name="restore">Restore</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="premium_compare_folders">Folders</string>
+    <string name="premium_compare_pin_clone">Pin &amp; clone</string>
+    <string name="premium_compare_search_sort">Search &amp; sort</string>
+    <string name="premium_compare_drive">Drive backup</string>
+    <string name="premium_compare_unlimited">No limits</string>
+    <string name="premium_product_id">One-time purchase: premium_upgrade</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_config_desc">Set how the auto clicker behaves.</string>
+    <string name="max_clicks">Max flow (0 = infinite)</string>
+    <string name="click_interval">Click interval (ms, min 100)</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="interval_too_low">Interval must be at least 100 ms</string>
+
+    <!-- Notification -->
+    <string name="notification_running_title">Auto Clicker is running</string>
+    <string name="notification_running_text">Running…</string>
+    <string name="notification_channel_name">Auto Clicker Service</string>
+    <string name="notification_channel_description">Shown while Auto Clicker is running</string>
+
+    <!-- Menu -->
+    <string name="menu_export">Export flow</string>
+    <string name="menu_import">Import flow</string>
+    <string name="menu_stop">Stop clicker</string>
+
+    <!-- Messages -->
+    <string name="restore_successful">Restore successful</string>
+    <string name="restore_failed_invalid_file">Restore failed: file is not valid</string>
+    <string name="restore_failed_cannot_read_file">Restore failed: couldn\'t read the file</string>
+    <string name="file_saved_successfully">File saved</string>
+    <string name="failed_to_save_file">Couldn\'t save the file</string>
+    <string name="loaded_flow">Loaded: %1$s</string>
+    <string name="share_backup">Share Backup</string>
+    <string name="export_failed">Export failed</string>
+    <string name="configuration_saved">Config saved</string>
+    <string name="limit_reached">Limit reached</string>
+    <string name="example_double_tap_center">Example: Double Tap Center</string>
+
+    <!-- FlowEditorActivity -->
+    <string name="edit_flow">Edit Flow</string>
+    <string name="new_flow">New Flow</string>
+    <string name="section_flow_info">FLOW SETTINGS</string>
+    <string name="section_click_points">CLICK POINTS</string>
+    <string name="section_timing">TIMING</string>
+    <string name="loop_delay_hint">Loop delay (ms)</string>
+    <string name="add_point">Add click point</string>
+    <string name="no_points_title">No click points yet</string>
+    <string name="no_points_desc">Tap "Add click point" to set where and how the clicker should tap.</string>
+    <string name="point_delay_hint">Pre-tap delay</string>
+    <string name="point_repeat_hint">Repeat ×N</string>
+    <string name="swipe_duration_hint">Swipe duration</string>
+    <string name="flow_saved">Flow saved</string>
+    <string name="flow_name_empty">Please enter a flow name</string>
+    <string name="edit">Edit</string>
+    <string name="point_count">%1$d point(s)</string>
+    <string name="point_detail_click">Delay %1$d ms · repeat ×%2$d</string>
+    <string name="point_detail_swipe">Swipe %1$d ms · delay %2$d ms</string>
+    <string name="point_detail_long_press">Hold %1$d ms · delay %2$d ms</string>
+    <string name="action_summary">Action: %1$s</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Brief ripple marker shown at each tap location during execution.
+  The AccessibilityService animates it (scale + fade) and removes it after ~300 ms.
+  The tag "markerLabel" on the TextView is used programmatically to set the point number.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp">
+
+    <!-- Outer circle – ripple ring -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_marker_ring"
+        android:alpha="0.6" />
+
+    <!-- Inner label (used in editor canvas; hidden during live execution) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:tag="markerLabel"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
