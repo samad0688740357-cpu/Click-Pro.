@@ -16,6 +16,8 @@
     <string name="accessibility_enabled_title">无障碍已启用</string>
     <string name="accessibility_enabled_msg">自动点击器现在可以模拟点击了。点击下方可打开无障碍设置并将其关闭。</string>
     <string name="disable_accessibility">在设置中禁用</string>
+    <string name="accessibility_manual_title">手动打开无障碍</string>
+    <string name="accessibility_manual_msg">Android 无法自动打开无障碍设置。\n\n要启用自动点击器：\n1. 打开 Android 设置。\n2. 进入无障碍设置。\n3. 打开已安装的应用或已下载的应用。\n4. 选择自动点击器。\n5. 打开自动点击器并确认权限。\n\n启用权限后返回自动点击器。</string>
 
     <!-- Main screen cards -->
     <string name="single_target_mode">单点模式</string>

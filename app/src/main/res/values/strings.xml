@@ -16,6 +16,8 @@
     <string name="accessibility_enabled_title">Accessibility is active</string>
     <string name="accessibility_enabled_msg">Auto Clicker can now simulate taps. Tap below to open Accessibility settings and turn it off.</string>
     <string name="disable_accessibility">Disable in Settings</string>
+    <string name="accessibility_manual_title">Open Accessibility manually</string>
+    <string name="accessibility_manual_msg">Android could not open Accessibility settings automatically.\n\nTo enable Auto Clicker:\n1. Open Android Settings.\n2. Go to Accessibility.\n3. Open Installed apps or Downloaded apps.\n4. Select Auto Clicker.\n5. Turn on Auto Clicker and confirm the permission.\n\nReturn to Auto Clicker after the permission is enabled.</string>
 
     <!-- Main screen cards -->
     <string name="single_target_mode">Single Target</string>

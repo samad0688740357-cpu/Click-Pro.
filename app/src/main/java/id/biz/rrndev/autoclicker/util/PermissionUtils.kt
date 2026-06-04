@@ -45,31 +45,34 @@ object PermissionUtils {
      * On API 31+ uses the direct service detail page; on older APIs falls back to the
      * general accessibility list with the service pre-highlighted via a fragment argument.
      */
-    fun openAccessibilitySettings(context: Context) {
+    fun openAccessibilitySettings(context: Context): Boolean {
         val serviceName =
             "${context.packageName}/${AutoClickAccessibilityService::class.java.name}"
 
-        // API 31+: intent that opens the detail page for this specific service
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            val intent = Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS).apply {
+        return runCatching {
+            // API 31+: intent that opens the detail page for this specific service
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                val intent = Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS).apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    putExtra(":settings:fragment_args_key", serviceName)
+                    putExtra(
+                        ":settings:show_fragment_args",
+                        android.os.Bundle().also { it.putString(":settings:fragment_args_key", serviceName) }
+                    )
+                }
+                if (intent.resolveActivity(context.packageManager) != null) {
+                    context.startActivity(intent)
+                    return@runCatching true
+                }
+            }
+
+            // Fallback: general accessibility settings, service highlighted where supported
+            context.startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS).apply {
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 putExtra(":settings:fragment_args_key", serviceName)
-                putExtra(
-                    ":settings:show_fragment_args",
-                    android.os.Bundle().also { it.putString(":settings:fragment_args_key", serviceName) }
-                )
-            }
-            if (intent.resolveActivity(context.packageManager) != null) {
-                context.startActivity(intent)
-                return
-            }
-        }
-
-        // Fallback: general accessibility settings, service highlighted where supported
-        context.startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS).apply {
-            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            putExtra(":settings:fragment_args_key", serviceName)
-        })
+            })
+            true
+        }.getOrDefault(false)
     }
 
     /**

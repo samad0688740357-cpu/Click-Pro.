@@ -46,7 +46,7 @@ class AutoClickAccessibilityService : AccessibilityService() {
         private var instance: WeakReference<AutoClickAccessibilityService>? = null
 
         /**
-         * True only between onServiceConnected() and onDestroy().
+         * True only between onServiceConnected() and the accessibility service unbinding.
          * This is the authoritative live-running flag.
          */
         @Volatile
@@ -214,14 +214,24 @@ class AutoClickAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent?) { /* not needed */ }
     override fun onInterrupt() { stopExecution() }
 
+    override fun onUnbind(intent: Intent?): Boolean {
+        handleServiceDisconnected()
+        return super.onUnbind(intent)
+    }
+
     override fun onDestroy() {
+        handleServiceDisconnected()
+        serviceScope.cancel()
+        super.onDestroy()
+    }
+
+    private fun handleServiceDisconnected() {
+        serviceScope.coroutineContext.cancelChildren()
         stopExecution()
         hideControlOverlay()
         removeAllReticles()
-        serviceScope.cancel()
         isConnected = false
         instance = null
-        super.onDestroy()
     }
 
     // ── Execution Control ──────────────────────────────────────────────────

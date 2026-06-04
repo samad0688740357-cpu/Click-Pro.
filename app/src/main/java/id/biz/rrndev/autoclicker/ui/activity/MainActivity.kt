@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         private const val IMPORT_OPTION_LOCAL = 0
         private const val IMPORT_OPTION_DRIVE = 1
         private const val GOOGLE_DRIVE_PACKAGE = "com.google.android.apps.docs"
+        private const val ACCESSIBILITY_STATUS_REFRESH_DELAY_MS = 500L
     }
 
     private lateinit var binding: ActivityMainBinding
@@ -147,6 +148,10 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         premiumManager.restorePurchases()
         updatePermissionBanner()
+        binding.root.postDelayed(
+            { updatePermissionBanner() },
+            ACCESSIBILITY_STATUS_REFRESH_DELAY_MS
+        )
         attemptPendingQuickStart()
     }
 
@@ -969,11 +974,17 @@ class MainActivity : AppCompatActivity() {
         binding.cardPermission.visibility = if (hasAccess) View.GONE else View.VISIBLE
         binding.cardAccessibilityEnabled.visibility = if (hasAccess) View.VISIBLE else View.GONE
         binding.btnEnableAccessibility.setOnClickListener {
-            PermissionUtils.openAccessibilitySettings(this)
+            openAccessibilitySettingsOrShowHelp()
         }
         binding.btnDisableAccessibility.setOnClickListener {
-            PermissionUtils.openAccessibilitySettings(this)
+            openAccessibilitySettingsOrShowHelp()
         }
+    }
+
+    private fun openAccessibilitySettingsOrShowHelp(): Boolean {
+        val opened = PermissionUtils.openAccessibilitySettings(this)
+        if (!opened) showAccessibilityManualHelpDialog()
+        return opened
     }
 
     private fun showAccessibilityDialog(clearPendingQuickStartOnCancel: Boolean = false) {
@@ -984,8 +995,7 @@ class MainActivity : AppCompatActivity() {
             .setTitle(R.string.accessibility_required_title)
             .setMessage(R.string.accessibility_required_msg)
             .setPositiveButton(R.string.open_settings) { _, _ ->
-                openedSettings = true
-                PermissionUtils.openAccessibilitySettings(this)
+                openedSettings = openAccessibilitySettingsOrShowHelp()
             }
             .setNegativeButton(R.string.cancel) { _, _ ->
                 if (clearPendingQuickStartOnCancel) pendingQuickStartMode = null
@@ -996,6 +1006,14 @@ class MainActivity : AppCompatActivity() {
                     pendingQuickStartMode = null
                 }
             }
+            .show()
+    }
+
+    private fun showAccessibilityManualHelpDialog() {
+        MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.accessibility_manual_title)
+            .setMessage(R.string.accessibility_manual_msg)
+            .setPositiveButton(R.string.done, null)
             .show()
     }
 

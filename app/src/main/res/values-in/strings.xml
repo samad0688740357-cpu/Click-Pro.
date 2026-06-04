@@ -16,6 +16,8 @@
     <string name="accessibility_enabled_title">Aksesibilitas aktif</string>
     <string name="accessibility_enabled_msg">Auto Clicker kini bisa mensimulasi ketukan. Ketuk di bawah untuk membuka pengaturan Aksesibilitas dan menonaktifkannya.</string>
     <string name="disable_accessibility">Nonaktifkan di Pengaturan</string>
+    <string name="accessibility_manual_title">Buka Aksesibilitas secara manual</string>
+    <string name="accessibility_manual_msg">Android tidak dapat membuka pengaturan Aksesibilitas secara otomatis.\n\nUntuk mengaktifkan Auto Clicker:\n1. Buka Setelan Android.\n2. Buka Aksesibilitas.\n3. Buka Aplikasi terpasang atau Aplikasi yang diunduh.\n4. Pilih Auto Clicker.\n5. Aktifkan Auto Clicker dan konfirmasi izinnya.\n\nKembali ke Auto Clicker setelah izin diaktifkan.</string>
 
     <!-- Main screen cards -->
     <string name="single_target_mode">Target Tunggal</string>

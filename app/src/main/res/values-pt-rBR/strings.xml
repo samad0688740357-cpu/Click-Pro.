@@ -16,6 +16,8 @@
     <string name="accessibility_enabled_title">Acessibilidade ativa</string>
     <string name="accessibility_enabled_msg">O Auto Clicker já pode simular toques. Toque abaixo para abrir as configurações de Acessibilidade e desativá-lo.</string>
     <string name="disable_accessibility">Desativar nas Configurações</string>
+    <string name="accessibility_manual_title">Abrir Acessibilidade manualmente</string>
+    <string name="accessibility_manual_msg">O Android não conseguiu abrir as configurações de Acessibilidade automaticamente.\n\nPara ativar o Auto Clicker:\n1. Abra as Configurações do Android.\n2. Vá para Acessibilidade.\n3. Abra Aplicativos instalados ou Aplicativos baixados.\n4. Selecione o Auto Clicker.\n5. Ative o Auto Clicker e confirme a permissão.\n\nVolte para o Auto Clicker depois que a permissão for ativada.</string>
 
     <!-- Main screen cards -->
     <string name="single_target_mode">Alvo Único</string>
