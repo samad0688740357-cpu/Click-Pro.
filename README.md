@@ -127,8 +127,8 @@ branding or trademarks without explicit permission from RRNDev.
 ## Project Info
 
 - Package name: `id.biz.rrndev.autoclicker`
-- Version: `2.0.0`
-- Version code: `8`
+- Version: `2.1.0`
+- Version code: `9`
 - Min SDK: `24`
 - Target SDK: `36`
 - Compile SDK: `36`
